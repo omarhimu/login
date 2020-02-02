@@ -1,0 +1,91 @@
+*{
+	margin: 0;	
+	font-family: tahoma;
+}
+body {
+	background-image: url(../images/logo.png);
+	background-size: cover;	
+}
+header{
+	margin-top: 10px;
+}
+header h1{
+	color: #fff;
+	background: rgba(0, 0, 0, .4);	
+	font-size: 50px;	
+	text-align: center;
+	margin-top: 10px;
+}
+.amader-form legend{
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	border: 1px solid;
+}
+
+.amader-form{
+	width: 650px;
+	background: rgba(0, 0, 0, .4);
+	margin: 100px auto;
+	padding: 40px 20px;
+	border-radius: 5px;
+}
+.amader-form input{
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid lightgoldenrodyellow;
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+}
+.amader-form label{
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 0;
+	display: block;
+	font-size: 20px;
+}
+.amader-form select{	
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid yellow;
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+	width: 32%;
+	cursor: pointer;
+}
+.amader-form select option{	
+	font-size: 18px;
+	padding: 5px;	
+	background: transparent;
+	color: blue;
+}
+.amader-form input[type=submit]{
+	width: 200px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.amader-form input[type=date]{
+	width: 200px;	
+	cursor: pointer;
+}
+.amader-form input[type=checkbox]{
+	width: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+.amader-form label[for=kkk]{
+	width: 100px;
+	display: inline-block;
+}
+.amader-form p{
+	color: #fff;
+	font-size: 17px;
+}
+.amader-form p a{
+	color: rgb(34, 5, 88);
+}
